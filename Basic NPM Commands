@@ -42,28 +42,33 @@ source credit (bradtraversy gist)
 [11]  UPDATE
       npm update lodash --save
 
-[12]  INSTALL GLOBAL MODULE
-      npm install -g nodemon
-      npm install -g live-server
-
-[13]  RUN NODEMON
-      nodemon
-
-[14]  FIND ROOT FOLDER
-      npm root -g
-
-[15]   REMOVE GLOBAL PACKAGES
-       npm remove -g nodemon
-
-[16]   LISTING PACKAGES 
+[12]   LISTING PACKAGES 
        npm list
        npm list --depth 0
        npm list --depth 1
 
-[17]   INSTALL LIVE-SERVER LOCALLY
+[13]  INSTALL GLOBAL MODULE
+      npm install -g nodemon
+      npm install -g live-server
+
+[14]  RUN NODEMON
+      nodemon
+
+[15]  FIND ROOT FOLDER
+      npm root -g
+
+[16]   REMOVE GLOBAL PACKAGES
+       npm remove -g nodemon
+
+[17]   LISTING PACKAGES 
+       npm list
+       npm list --depth 0
+       npm list --depth 1
+
+[18]   INSTALL LIVE-SERVER LOCALLY
        npm install live-server --save-dev
 
-[18]   NPM SCRIPT
+[19]   NPM SCRIPT
        "scripts": {
        "start": "node index.js",
        "dev": "live-server"

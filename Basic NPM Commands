@@ -1,0 +1,68 @@
+[1]  TO CHECK VERSION
+     npm -v (or --version)
+
+[2]  GET HELP
+     npm help
+     npm
+
+[3]  CREATE PACKAGE.JSON
+     npm init
+     npm init -y (or --yes)
+
+[4]  SET DEFAULTS
+     npm config set init-author-name "YOUR NAME"
+     npm set init-license "MIT"
+
+[5]  GET DEFAULTS
+     npm config get init-author-name
+     npm get init-license
+
+[6]  REMOVE DEFAULTS
+     npm config delete init-author-name
+     npm delete init-license
+
+[7]  INSTALLING LOCAL PACKAGES
+     npm install lodash --save (or npm install --save lodash)
+     npm install moment --save
+     npm install gulp gulp-sass --save-dev
+
+[8]  MOVE TO ANOTHER FOLDER
+     npm install
+     npm install --production
+
+[9]   REMOVING MODULES
+      npm  uninstall gulp-sass --save-dev
+      npm  remove gulp --save-dev
+
+[10]  INSTALL CERTAIN VERSIONS
+      npm install lodash@4.17.3 --save
+
+[11]  UPDATE
+      npm update lodash --save
+
+[12]  INSTALL GLOBAL MODULE
+      npm install -g nodemon
+      npm install -g live-server
+
+[13]  RUN NODEMON
+      nodemon
+
+[14]  FIND ROOT FOLDER
+      npm root -g
+
+[15]   REMOVE GLOBAL PACKAGES
+       npm remove -g nodemon
+
+[16]   LISTING PACKAGES 
+       npm list
+       npm list --depth 0
+       npm list --depth 1
+
+[17]   INSTALL LIVE-SERVER LOCALLY
+       npm install live-server --save-dev
+
+[18]   NPM SCRIPT
+       "scripts": {
+       "start": "node index.js",
+       "dev": "live-server"
+       },

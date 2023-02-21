@@ -60,15 +60,11 @@ source credit (bradtraversy gist)
 [16]   REMOVE GLOBAL PACKAGES
        npm remove -g nodemon
 
-[17]   LISTING PACKAGES 
-       npm list
-       npm list --depth 0
-       npm list --depth 1
 
-[18]   INSTALL LIVE-SERVER LOCALLY
+[17]   INSTALL LIVE-SERVER LOCALLY
        npm install live-server --save-dev
 
-[19]   NPM SCRIPT
+[18]   NPM SCRIPT
        "scripts": {
        "start": "node index.js",
        "dev": "live-server"
